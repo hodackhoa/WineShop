@@ -1,0 +1,58 @@
+.cart-main{
+	width: 70%;
+	margin: 2em auto 3em;
+	font-family: Times New Roman;
+}
+.cart-main table{
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #fafafa;
+	text-align: center;
+	margin-top: 1.5em;
+}
+.cart-main table th{
+	height: 3em;
+}
+.cart-main h2{
+	margin: 0 0 .2em;
+	font-weight: normal;
+}
+.cart-main table td svg:hover{
+	color: #e6ae48;
+}
+.cart-main table td svg path{
+	display: block;
+	width: 100%;
+}
+.cart-main table td svg:active{
+	color: #885b09;
+}
+.cart-main table input{
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	background-color: #fafafa;
+	border: 1px solid #f1f1f1;
+}
+.cart-main .btn-OrderGr{
+	width: 100%;
+	text-align: right;
+	margin-top: 2em;
+}
+.cart-main .btn-OrderGr button{
+	color: white;
+	background-color: black;
+	outline: none;
+	border: none;
+	font-family: Times New Roman;
+	margin-left: 2em;
+	padding: .4em 1em;
+	transition: .3s;
+}
+.cart-main .btn-OrderGr button:hover{
+	background-color: #e6ae48;
+}
+.cart-main .btn-OrderGr button:active{
+	background-color: #ad7309;
+}

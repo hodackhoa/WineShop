@@ -1,0 +1,41 @@
+.orderManage-main{
+	width: auto;
+	padding: 2em 5%;
+}
+	#infor-orderManage{
+
+	}
+		#infor-orderManage select{
+			padding: .2em 0;
+			font-size: 1em;
+		}
+	#list-orderManage{
+		margin: 2em 0;
+	}
+		.orders-admin{
+			display: grid;
+			grid-template-columns: auto auto auto 20%;
+			grid-column-gap: 2em;
+			background-color: white;
+			padding: .6em 1em;
+			border-radius: 2px;
+			box-shadow: 2px 2px 5px #afafaf;
+			margin-bottom: .5em;
+		}
+			.ordersAdmin-child{
+				align-self: center;
+			}
+			#btn-ordersAdmin{
+				text-align: center;
+			}
+			#btn-ordersAdmin button{
+				width: 80%;
+				padding: .5em 0;
+				border-radius: 3px;
+			}
+			#infor-orderChild h4{
+				margin: .5em 0;
+				font-weight: lighter;
+				font-style: italic;
+				color: #6e6e6e;
+			}
